@@ -17,8 +17,8 @@ final class PaywallViewModel: ObservableObject {
     private let myStorage = MyStorage()
     
     init() {
-        setupSubscribers()
         checkIfUserSelectedSubscription()
+        setupSubscribers()
     }
 }
 
