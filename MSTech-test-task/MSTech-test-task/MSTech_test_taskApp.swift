@@ -11,7 +11,7 @@ import SwiftUI
 struct MSTech_test_taskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           RootScreen()
         }
     }
 }
